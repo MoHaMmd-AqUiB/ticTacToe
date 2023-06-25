@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .logo {
+    display: flex;
+    border: 1px solid rebeccapurple;
+    height: 80vh;
+    width: 100vw;
+    z-index: -1;
+  }
+  .logo-image-container{
+       width: 15%;
+  }
+  .logo-image{
+      display: inline-block;
+     position: absolute;
+  
+     bottom: 393px;
+      height: 20vh;
+      width: 17vw;
+  }
+ .logo-para{
+    width: 30%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+      3px 4px 4px rgba(179, 147, 211, 0.15), 4px 6px 4px rgba(179, 147, 211, 0.2),
+      5px 8px 4px rgab(179, 147, 211, 0.25);
+      font-size: 30px;
+    font-weight: 600;
+ }
+  
+
+  .logo-youtube {
+    width: 5%;
+    margin-right: 30px;
+  }
+
+  .logo-instagram {
+    width: 5%;
+    margin-right: 30px;
+  }
+
+  
+  /* .logo-para{
+      position: relative;
+      left: 24vw;
+      width: 40vw;
+      font-size: 30px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+      3px 4px 4px rgba(179, 147, 211, 0.15), 4px 6px 4px rgba(179, 147, 211, 0.2),
+      5px 8px 4px rgab(179, 147, 211, 0.25);
+  } */
+  

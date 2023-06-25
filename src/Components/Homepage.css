@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  header {
+    display: flex;
+    background-color: purple;
+    color: #fff;
+ 
+    width: 100vw;
+  }
+  .header-heading{
+    width: 50%;
+   
+  }
+  .header-button1{
+ 
+    position: absolute;
+    left: 80vw;
+    top: 30px;
+    border-radius: 5px;
+    color: rgb(156, 28, 156);
+    background-color:  #fff;
+    width: 70px;
+    height: 32px;
+    
+  }
+  .header-button2{
+     position: absolute;
+    left: 90vw;
+    top: 30px;
+    width: 70px;
+    height: 32px;
+    border-radius: 5px;
+    color: rgb(156, 28, 156);
+    background-color:  #fff;
+    
+  }
+  
+   company-title{
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    
+  }
+  
+  #hero {
+    background-color: rgb(195, 141, 195);
+    text-align: center;
+    
+    border :1px solid black
+  }
+  
+  #hero h2 {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  #hero p{
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 10px;
+    color: rgb(195, 141, 195);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  #features {
+    background-color: rgb(195, 141, 195);
+     
+    border :1px solid black
+
+  }
+  
+  .feature {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature img {
+    width: 100px;
+  }
+  
+  .feature h4 {
+    margin: 20px 0;
+    font-size: x-large;
+  
+  }
+  
+  #benefits {
+    background-color: rgb(195, 141, 195);
+    border: 1px solid black;
+   
+  }
+  
+  .benefit {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .benefit img {
+    width: 100px;
+  }
+  
+  .benefit h4 {
+    margin: 20px 0;
+    font-size: x-large;
+  }
+  
+  footer {
+    background-color:rgb(195, 141, 195);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  p{
+    color: #fff;
+    font-size: x-large;
+  }
+  .heading-home{
+    font-weight: 1000;
+    font-size: xx-large;
+  }
+  
