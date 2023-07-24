@@ -15,7 +15,7 @@ function Search() {
       (item) =>
         item.name.toLowerCase().includes(query) ||
         item.experience.toLowerCase().includes(query)||
-        item.answer.toLowerCase().includes(query)||
+        // item.answer.toLowerCase().includes(query)||
         item.position.toLowerCase().includes(query)||
         item.location.toLowerCase().includes(query)
 
@@ -42,12 +42,21 @@ function Search() {
           Logout
         </button>
       </header>
-      <input
+      < div className="container-input-heading">
+      <div className="inputHeading">
+      Search Candidate:
+      </div>
+     <div className="inputBox">
+     <input
         type="text"
-        placeholder="Search..."
+        
         className="Search"
         onChange={(e) => setQuery(e.target.value)}
+        placeholder="Aquib"
       />
+     </div>
+     
+      </div>
       <DashBoard data={Search(queans)} />
     </>
   );

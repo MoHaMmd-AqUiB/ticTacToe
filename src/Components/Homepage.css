@@ -17,32 +17,107 @@ body {
  
     width: 100vw;
   }
+  .company-title{
+    position: relative;
+    top: 12px;
+  }
   .header-heading{
     width: 50%;
    
   }
   .header-button1{
  
-    position: absolute;
-    left: 80vw;
-    top: 30px;
-    border-radius: 5px;
-    color: rgb(156, 28, 156);
-    background-color:  #fff;
-    width: 70px;
-    height: 32px;
+    align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(
+    rgba(179, 132, 201, 0.84),
+    rgba(57, 31, 91, 0.84) 50%
+  );
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,
+    rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,
+    rgba(255, 255, 255, 0.2) 0 0 12px, rgba(57, 31, 91, 0.6) 1px 1px 4px,
+    rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  position: absolute;
+  left: 80vw;
+  top: 30px;
     
   }
   .header-button2{
-     position: absolute;
+    align-items: center;
+    background-color: initial;
+    background-image: linear-gradient(
+      rgba(179, 132, 201, 0.84),
+      rgba(57, 31, 91, 0.84) 50%
+    );
+    border-radius: 42px;
+    border-width: 0;
+    box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,
+      rgba(179, 132, 201, 0.4) 0 8px 12px;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    font-family: Quicksand, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: 0.04em;
+    line-height: 16px;
+    margin: 0;
+    padding: 18px 18px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,
+      rgba(255, 255, 255, 0.2) 0 0 12px, rgba(57, 31, 91, 0.6) 1px 1px 4px,
+      rgba(57, 31, 91, 0.32) 4px 4px 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    position: absolute;
     left: 90vw;
     top: 30px;
-    width: 70px;
-    height: 32px;
-    border-radius: 5px;
-    color: rgb(156, 28, 156);
-    background-color:  #fff;
     
+  }
+  .header-button2:hover {
+    background-image: linear-gradient(#b384c9, #391f5b 40%);
+  }
+  
+  @media (min-width: 768px) {
+    .header-button2 {
+      font-size: 12px;
+      padding: 15px 30px;
+    }
+  }
+  
+  .header-button1:hover {
+    background-image: linear-gradient(#b384c9, #391f5b 40%);
+  }
+  
+  @media (min-width: 768px) {
+    .header-button1 {
+      font-size: 12px;
+      padding: 15px 30px;
+    }
   }
   
    company-title{
@@ -53,7 +128,7 @@ body {
     
   }
   
-  #hero {
+  /* #hero {
     background-color: rgb(195, 141, 195);
     text-align: center;
     
@@ -66,14 +141,70 @@ body {
   }
   #hero p{
     color: #fff;
-  }
+  } */
+
   
-  .btn {
+  
+  /* .btn {
     display: inline-block;
     padding: 10px 20px;
     background-color: #fff;
     border: 10px;
     color: rgb(195, 141, 195);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  } */
+
+  #hero {
+    width: 100vw;
+    justify-content: space-around;
+    /* text-align: center; */
+    display: flex;
+    border: 1px solid black;
+  }
+  
+  #hero h2 {
+    margin-left: 10vw;
+    width: 62%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+      3px 4px 4px rgba(179, 147, 211, 0.15), 4px 6px 4px rgba(179, 147, 211, 0.2),
+      5px 8px 4px rgab(179, 147, 211, 0.25);
+  }
+  #hero p {
+    margin-left: 10vw;
+    width: 62%;
+    font-size: 20px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+      3px 4px 4px rgba(179, 147, 211, 0.15), 4px 6px 4px rgba(179, 147, 211, 0.2),
+      5px 8px 4px rgab(179, 147, 211, 0.25);
+  }
+  
+  .btn {
+    border: 1px solid purple;
+    border-radius: 10px;
+    margin-left: 27vw;
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  rgb(195, 141, 195);
+    border: 10px;
+    color: #fff;
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
@@ -105,7 +236,7 @@ body {
   }
   
   #benefits {
-    background-color: rgb(195, 141, 195);
+    background-color: #fff;
     border: 1px solid black;
    
   }
@@ -123,6 +254,9 @@ body {
     margin: 20px 0;
     font-size: x-large;
   }
+.benefit-para{
+    color: purple;
+}
   
   footer {
     background-color:rgb(195, 141, 195);

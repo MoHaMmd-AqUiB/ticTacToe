@@ -55,3 +55,32 @@
 .title span {
     font-size: 30px;
 }
+.dash-name{
+    font-size: 24px;
+}
+.dash-location {
+    font-size: 24px;
+}
+.dash-experience{
+    font-size: 24px;
+}
+.dash-position{
+    font-size: 24px;
+}
+.dash-name span{
+   position: relative;
+   bottom: 5px;
+}
+.dash-location span{
+    position: relative;
+    bottom: 5px;
+ }
+ .dash-position span{
+    position: relative;
+    bottom: 5px;
+ }
+ .dash-experience span{
+    position: relative;
+    bottom: 5px;
+ }
+

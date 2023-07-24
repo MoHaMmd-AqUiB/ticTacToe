@@ -6,7 +6,8 @@ import pending from"../photos/119636-pending-payment.json";
 import collaboration from "../photos/41448-online-team-collaboration-animation.json";
 import timeSaving from "../photos/77406-stop-watch-timing.json";
 import efficiency from "../photos/131193-time-money-efficiency.json";
-import betterCollaboration from "../photos/104846-genesiv.json"
+import betterCollaboration from "../photos/104846-genesiv.json";
+import animationData from "../photos/85037-recruitment.json";
 import Lottie from "lottie-react";
 
 
@@ -35,12 +36,21 @@ export default function HomePage(){
 
   </header>
   
-  <section id="hero">
+  {/* <section id="hero">
     <div className="container">
       <h2>Efficient Hiring for Managers and HR Professionals</h2>
       <p>Streamline your recruitment process and find the right talent quickly with our online recruitment solution.</p>
       <a href="#features" className="btn">Learn More</a>
     </div>
+  </section> */}
+  <section id="hero">
+    <div className="container">
+      <h2>Efficient Hiring for Managers and HR Professionals</h2>
+      <p>Streamline your recruitment process and find the right talent quickly with our online recruitment solution.</p>
+      <a href="#features" className="btn">Learn More</a>
+      </div>
+      <Lottie style={{height: "50vh", position: "relative", right: "10vw"}} animationData={animationData}></Lottie>
+    
   </section>
   
   <section id="features">
@@ -108,7 +118,7 @@ export default function HomePage(){
           animationData={timeSaving}
         ></Lottie>
         <h4>Time-saving</h4>
-        <p>Reduce the time and effort spent on manual tasks, allowing you to focus on finding the best candidates.</p>
+        <p className="benefit-para">Reduce the time and effort spent on manual tasks, allowing you to focus on finding the best candidates.</p>
       </div>
       <div className="benefit">
       <Lottie
@@ -122,7 +132,7 @@ export default function HomePage(){
           animationData={efficiency}
           ></Lottie>
         <h4>Improved Efficiency</h4>
-        <p>Streamline your recruitment workflow and improve efficiency by automating repetitive processes.</p>
+        <p className="benefit-para"> Streamline your recruitment workflow and improve efficiency by automating repetitive processes.</p>
       </div>
       <div className="benefit">
       <Lottie
@@ -136,7 +146,7 @@ export default function HomePage(){
           animationData={betterCollaboration}
           ></Lottie>
         <h4>Better Collaboration</h4>
-        <p>Facilitate collaboration and communication between hiring managers and HR professionals for better decision-making.</p>
+        <p className="benefit-para">Facilitate collaboration and communication between hiring managers and HR professionals for better decision-making.</p>
       </div>
     </div>
   </section>

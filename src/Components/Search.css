@@ -1,7 +1,4 @@
 .Search {
-    position: relative;
-    left: 34vw;
-    top: 20px;
     height: 40px;
     border: 1px solid rgb(11, 11, 12);
     text-decoration: none;
@@ -14,4 +11,14 @@
     padding: 0 10px;
     font-size: 30px;
     font-weight: 300;
+}
+.inputHeading{
+    margin-top: 78px;
+    font-weight: 900;
+
+}
+
+.container-input-heading{
+    display: flex;
+    padding: 0px 439px 0px 450px;
 }
